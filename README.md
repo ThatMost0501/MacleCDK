@@ -19,22 +19,22 @@
 
 | 命令 | 功能 |
 | ---- | ---- |
-| /ancdk create [命令] [数量] | 创建`[数量]`个执行`[命令]`的CDK |
-| /ancdk export | 批量一键导出所有CDK |
-| /ancdk reload | 重载插件配置文件 |
+| /maclecdk create [命令] [数量] | 创建`[数量]`个执行`[命令]`的CDK |
+| /maclecdk export | 批量一键导出所有CDK |
+| /maclecdk reload | 重载插件配置文件 |
 
 > 玩家命令:
 
 | 命令 | 功能 |
 | ---- | ---- |
-| /ancdk [CDK] | 使用CDK |
+| /maclecdk [CDK] | 使用CDK |
 
 
 ## 插件权限
 
 | 节点 | 描述 |
 | ---- | ---- |
-| `ancdk.admin` | 总权限。给予此权限后无需剩余管理员权限 |
+| `maclecdk.admin` | 总权限。给予此权限后无需剩余管理员权限 |
 
 ## 插件变量：
  
