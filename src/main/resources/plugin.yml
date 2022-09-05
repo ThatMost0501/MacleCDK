@@ -1,0 +1,8 @@
+name: MacleCDK
+version: '${project.version}'
+api-version: 1.18
+main: me.thatmost.maclecdk
+authors: [ ThatMost ]
+commands:
+  maclecdk:
+    description: "MacleCDK Command"
