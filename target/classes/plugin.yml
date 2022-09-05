@@ -1,8 +1,0 @@
-name: MacleCDK
-version: '1.0.0'
-api-version: 1.18
-main: me.thatmost.maclecdk
-authors: [ ThatMost ]
-commands:
-  maclecdk:
-    description: "MacleCDK Command"
