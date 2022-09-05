@@ -10,10 +10,9 @@ import java.io.IOException;
 
 public final class maclecdk extends JavaPlugin {
     /*
-
     此插件代码提供者为EnRon233
     推荐发卡平台https://zoufk.com
-   为商户谋福利，为买家供便利
+    为商户谋福利，为买家供便利
 
      */
     public File file = new File(getDataFolder(), "Export.yml");
@@ -43,7 +42,9 @@ public final class maclecdk extends JavaPlugin {
         int pluginId = 16334; // <-- Replace with the id of your plugin!
         Metrics metrics = new Metrics(this, pluginId);
         metrics.addCustomChart(new Metrics.SimplePie("chart_id", () -> "My value"));
-        this.getLogger().info("&a插件已经成功运行！");
+        this.getLogger().info("插件已成功运行！");
+        this.getLogger().info("&a此插件代码提供者为EnRon233");
+        this.getLogger().info("&a推荐发卡平台https://zoufk.com");
     }
 
     @Override
